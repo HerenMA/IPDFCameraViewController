@@ -25,9 +25,9 @@ Pod::Spec.new do |s|
     ss.source_files  = "IPDFCameraViewController/IPDFCameraViewController.{h,m}"
   end
   
-  #s.subspec 'Framework' do |ss|
-  #  ss.ios.vendored_framework   = 'ios/IPDFCameraViewController.framework'
-  #end
+  s.subspec 'Framework' do |ss|
+    ss.ios.vendored_framework   = 'ios/IPDFCameraViewController.framework'
+  end
 
   s.framework     = 'AVFoundation', 'GLKit', 'ImageIO', 'CoreMedia', 'CoreVideo', 'CoreImage'
   

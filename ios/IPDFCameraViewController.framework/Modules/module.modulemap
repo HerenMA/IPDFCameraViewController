@@ -1,0 +1,6 @@
+framework module IPDFCameraViewController {
+  umbrella header "IPDFCameraViewController.h"
+
+  export *
+  module * { export * }
+}
